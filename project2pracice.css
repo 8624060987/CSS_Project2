@@ -1,0 +1,125 @@
+.main{
+/* Layout Properties */    
+top: 0px;
+left: 0px;
+width: 1366px;
+height: 1368px;
+/* UI Properties */
+background: #F7F7F7 0% 0% no-repeat padding-box;
+opacity: 1;   
+}
+.row1{
+/* Layout Properties */
+top: 0px;
+left: 0px;
+width: 1366px;
+height: 94px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 30px #7B7B7B29;
+opacity: 1;
+}
+.title{
+/* Layout Properties */
+position: relative;
+top: 23px;
+left: 137px;
+width: 196px;
+height: 49px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 40px/49px Inter;
+letter-spacing: 0px;
+opacity: 1;
+}
+.box{
+/* Layout Properties */
+position: relative;
+top: 220px;
+left: 139px;
+width: 352px;
+height: 360px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+
+margin: 10px;
+opacity: 1;  
+display:block;
+float: left;
+
+}
+.box :hover{
+    border: 1px black solid;
+}
+.box_content{
+    position:absolute;
+    top: 34px;
+    left: 30px;
+    right: 208;
+    bottom:302 ;
+    width: 114px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 23px; 
+    font-style: normal;
+    font-variant-alternates:medium;
+    font-variant-position: 20px;
+    font-stretch:inter;
+    /* font: normal normal medium 20px/24px Inter; */
+    letter-spacing: 0px;
+    color: #00A5EC;
+    opacity: 1;      
+}
+.box_content :hover{
+    border: 2px blue solid;
+    border-radius: 10px;
+}
+.line{
+/* Layout Properties */
+position:absolute;
+top: 84px;
+left: 0px;
+width: 352px;
+height: 0px;
+/* UI Properties */
+border: 1px solid #EDEDED;
+opacity: 1;
+}
+.checkbox{
+    width: 161px;
+    height: 85px;
+     position: absolute;
+     top: 115px;
+     left: 30px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 21px;
+    font: normal normal normal 18px/21px Inter;
+    letter-spacing: 0px;
+    color: #C2C2C2;
+    opacity: 1;
+
+}
+.checkbox :hover{
+    border: 1px black solid; 
+}
+.c1{
+    width: 115px;
+    height: 21px;
+  
+    
+}
+.c1 :hover{
+    border: 1px blue solid;
+}
+.c2{
+    position: absolute;
+    top:34px;
+    width: 110px;
+    height: 21px;
+   
+}
+.c2 :hover{
+    border: 1px red solid;
+}
