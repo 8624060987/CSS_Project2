@@ -143,8 +143,7 @@ body{
      border: 1px solid #424242;
  } */
 input[type="checkbox"] {
-    appearance: none;
-    -webkit-appearance: none;
+   
     height: 30px;
     width: 30px;
     /* background-color:#C2C2C2 ; */
